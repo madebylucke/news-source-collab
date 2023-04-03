@@ -1,0 +1,33 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 46px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+main{
+    min-height: 100vh;
+}
+
+footer{
+    background-color: gray;
+}
+
+article{
+    position: relative;
+}
+
+article img{
+    float: right;
+    width: 50%;
+}

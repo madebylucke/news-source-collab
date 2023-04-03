@@ -1,0 +1,32 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+}
+
+.articles{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.articles > div{
+    padding: calc(var(--bs-gutter-x) * .5);
+}
+
+.articles > div > div{
+    border: 1px solid rgba(40, 40, 40, 0.323);
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.articles img{
+    width: 100%;
+
+}
+
+footer{
+    background-color: gray;
+}
