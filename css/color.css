@@ -1,48 +1,15 @@
-:root{
-    --primary-color: rgb(222, 30, 30);
-    --secondary-color: rgb(79, 181, 65);
-    --dark-color: rgb(28, 24, 24);
-    --light-color: rgb(236, 236, 236);
-    --gray-color: rgb(142, 142, 142);
-
+:root[data-theme="light"]{
+    --primary-color: rgb(45, 45, 45);
+    --secondary-color: rgb(152, 228, 151);
+    --tertiary-color: rgb(175, 16, 16);
+    --dark-color: #26302A;
+    --light-color: #EDF7EB;
 }
 
-.primary{
-    color: var(--primary-color);
+:root[data-theme="dark"]{
+    --primary-color: rgb(178, 39, 39);
+    --secondary-color: rgb(152, 228, 151);
+    --tertiary-color: rgb(175, 16, 16);
+    --dark-color: #1dbb5c;
+    --light-color: #EDF7EB;
 }
-
-.secondary{
-    color: var(--secondary-color);
-}
-
-.dark{
-    color: var(--dark-color);
-}
-
-.light{
-    color: var(--light-color);
-}
-
-.gray{
-    color: var(--gray-color);
-}  
-
-.bg-primary{
-    background-color: var(--primary-color);
-}
-
-.bg-secondary{
-    background-color: var(--secondary-color);
-}
-
-.bg-dark{
-    background-color: var(--dark-color);
-}
-
-.bg-light{
-    background-color: var(--light-color);
-}
-
-.bg-gray{
-    background-color: var(--gray-color);
-}   
