@@ -1,5 +1,5 @@
 :root[data-theme="light"]{
-    --primary-color: rgb(45, 45, 45);
+    --primary-color: rgb(8, 73, 31);
     --secondary-color: rgb(152, 228, 151);
     --tertiary-color: rgb(175, 16, 16);
     --dark-color: #26302A;
@@ -11,5 +11,5 @@
     --secondary-color: rgb(152, 228, 151);
     --tertiary-color: rgb(175, 16, 16);
     --dark-color: #1dbb5c;
-    --light-color: #EDF7EB;
+    --light-color: #cbbd1f;
 }

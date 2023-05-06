@@ -6,6 +6,7 @@
 
 body{
     margin: auto;
+    background-color: var(--dark-color);
 }
 
 h1{
@@ -109,45 +110,7 @@ input.form-control{
 
 article{
     box-shadow: rgba(0, 0, 0, 0.245) 0px 4px 12px;
-}
-
-.ad{
-    visibility: hidden;
-    height: 90%;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 20px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 15px;
-}
-
-.ad:hover .text{
-    padding-bottom: 5em;
-}
-
-.ad img{
-    object-fit: cover;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-.ad .text{
-    transition: .5s all;
-    position: absolute;
-    bottom: 0;
-    background-color: darkslategrey;
-    color: whitesmoke;
-    border-radius: 15px 15px 0 0;
-    padding: 1em;
-}
-.ad h1{
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.ad p{
-    font-size: 16px;
+    background-color: var(--light-color);
 }
 
 .related .row div > div{
@@ -201,7 +164,7 @@ article{
 }
 
 footer{
-    background-color: var(--dark);
+    background-color: var(--primary-color);
 }
 
 footer ul{
@@ -229,10 +192,10 @@ footer h2{
     z-index: 10;
 }
 
-.darkmode #darkButton{
+:root[data-theme="dark"] #darkButton{
     background-color: aqua;
 }
-.darkmode #darkButton::before{
+:root[data-theme="dark"] #darkButton::before{
     content: 'dark';
     width: 100%;
     height: auto;
