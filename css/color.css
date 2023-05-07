@@ -1,15 +1,17 @@
 :root[data-theme="light"]{
-    --primary-color: rgb(8, 73, 31);
-    --secondary-color: rgb(152, 228, 151);
-    --tertiary-color: rgb(175, 16, 16);
-    --dark-color: #26302A;
-    --light-color: #EDF7EB;
+    --primary-color: #e2e7e5;
+    --secondary-color: #184e77;
+    --tertiary-color: #4c6b91;
+    --dark-color: #232421;
+    --light-color: #ebf2fa;
+    --text-default-color: black;
 }
 
 :root[data-theme="dark"]{
-    --primary-color: rgb(178, 39, 39);
-    --secondary-color: rgb(152, 228, 151);
-    --tertiary-color: rgb(175, 16, 16);
-    --dark-color: #1dbb5c;
-    --light-color: #cbbd1f;
+    --primary-color: #36363a;
+    --secondary-color: #184e77;
+    --tertiary-color: #4c6b91;
+    --dark-color: #232421;
+    --light-color: #ebf2fa;
+    --text-default-color: white;
 }
