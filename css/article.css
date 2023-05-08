@@ -209,6 +209,7 @@ footer h2{
 }
 :root[data-theme='dark'] #darkButton::before{
     transform: translate(97.5%);
+    background-color: #111516;
 }
 
 .navbar-brand{
@@ -219,25 +220,25 @@ footer h2{
     width: 100%;
     padding-left: 11%;
     padding-right: 11%;
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
 #settings-button{
     border: none;
     background: none;
-    transition: all .1s;
+    transition: all .5s;
+    margin-right: .25em;
 }
 #settings-button.active{
     transform: rotate(180deg);
 }
 #settings-button svg{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     transition: all .1s;
 }
 #settings-button:hover svg{
-    scale: 1.25;
+    scale: 1.1;
 }
 
 #settings{

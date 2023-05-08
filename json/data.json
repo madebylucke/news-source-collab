@@ -5,7 +5,7 @@
             "description": "Den process då atomkärnor smälter samman och bildar större och tyngre kärnor.",
             "search_terms": "kärnkraft",
             "href": "/html/article.html",
-            "image": "/images/rooftop_snipers.jpg",
+            "image": "/grupp8/images/rooftop_snipers.jpg",
             "category": "renewable_source"
 
         },
@@ -14,7 +14,7 @@
             "description": "Fission betyder klyvning, inom kärnfysiken och kärnkemin klyvningen av atomkärnor, kärnklyvning.",
             "search_terms": "kärnkraft",
             "href": "/html/article.html",
-            "image": "/images/rooftop_snipers.jpg",
+            "image": "/grupp8/images/rooftop_snipers.jpg",
             "category": "renewable_source"
         },
         {
@@ -22,7 +22,7 @@
             "description": "Vattenkraft är energi som utvinns ur strömmande vatten i ett vattenkraftverk.",
             "search_terms": "Vatten",
             "href": "/html/article.html",
-            "image": "/images/rooftop_snipers.jpg",
+            "image": "/grupp8/images/rooftop_snipers.jpg",
             "category": "renewable_source"
         },
         {
@@ -30,7 +30,7 @@
             "description": "Solkraft är omvandlandet av solljus till användbar elektricitet",
             "search_terms": "Sol",
             "href": "/html/article.html",
-            "image": "/images/rooftop_snipers.jpg",
+            "image": "/grupp8/images/rooftop_snipers.jpg",
             "category": "renewable_source"
         }
           

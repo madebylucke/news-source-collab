@@ -1,13 +1,7 @@
-var toggle = false;
 function dropdownToggle(){
     document.getElementById('settings-button').classList.toggle('active');
     document.getElementById('settings').classList.toggle('active');
 }
-
-const setting_button = document.getElementById('settings-button');
-setting_button.addEventListener("focusout", (event) => {
-    dropdownToggle();
-});
 
 const search_bar = document.getElementById('search-bar');
 search_bar.addEventListener('keydown', function(event) {
@@ -24,7 +18,7 @@ function search(){
     }
     console.log(window.location.hostname);
     
-    const location = window.location.origin + "/html/search.html";
+    const location = window.location.origin + "/grupp8/html/search.html";
 
     window.location.href = location + '?search=' + search_bar.value;
 }
