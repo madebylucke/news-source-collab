@@ -11,9 +11,40 @@
     <link rel="shortcut icon" href="#" type="image/x-icon">
 </head>
 <body>
+  <div id="blackout"></div>
+  <div id="nav-menu" class="">
+    <ul>
+        <li>
+            <h2>ARTWORK</h2>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+        </li>
+        <li>
+            <h2>Contact</h2>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Youtube</a></li>
+            </ul>
+        </li>
+    </ul>
+  </div>
   <nav class="sticky-top navbar navbar-expand-lg d-flex flex-column align-items-start p-0">
       <div class="container-fluid d-flex flex-column align-items-start p-0 bg-test">
-        <div class="navbar-brand text-light fw-bold fs-1" href="">Infinite Energy News</div>
+        <div class="d-flex w-100 align-items-center">
+          <a href="#" class="menu-item" id="nav-menu-button" draggable="false" onmouseenter="addHover(this)" onmouseleave="removeHover(this)">
+            <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                     
+                <g> 
+                    <path id="hbm-bot" d="M4 18L20 18" stroke-width="1.75" stroke-linecap="round"/> 
+                    <path id="hbm-mid" d="M4 12L20 12" stroke-width="1.75" stroke-linecap="round"/> 
+                    <path id="hbm-top" d="M4 6L20 6" stroke-width="1.75" stroke-linecap="round"/> 
+                </g>                  
+            </svg>
+          </a>
+          <div class="navbar-brand text-light fw-bold fs-1">Infinite Energy News</div>
+        </div>
         <div class="navbar-collapse bg-secondary" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -108,7 +139,7 @@
 
   <footer class="container-fluid mt-5">
     <div class="row p-3">
-      <div class="col-3">
+      <div class="col-0 col-md-4 col-lg-3 mb-2">
         <h2>Contact</h2>
         <ul class="m-0 pl-2">
           <li><a href="#" class="">PLACE</a></li>
@@ -116,7 +147,7 @@
           <li><a href="#" class="">MAIL</a></li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-0 col-md-4 col-lg-3 mb-2">
         <h2>Social</h2>
         <ul class="m-0 pl-2">
           <li><a href="#" class="">INSTAGRAM</a></li>
@@ -124,13 +155,13 @@
           <li><a href="#" class="">YOUTUBE</a></li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-0 col-md-4 col-lg-3 mb-2">
         <h2>Links</h2>
         <ul class="m-0 pl-2">
           <li><a href="#" class="">ABOUT</a></li>
         </ul>
       </div>
-      <div class="col-3">
+      <div class="col-0 col-md-4 col-lg-3 mb-2">
         <h2>Infinte Enery News<br><span>IEN</span></h2>
         <p class="">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.

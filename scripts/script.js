@@ -3,6 +3,28 @@ function dropdownToggle(){
     document.getElementById('settings').classList.toggle('active');
 }
 
+function toggleActive(e){
+    e.classList.toggle('active');
+}
+function addActive(e){
+    e.classList.add('active');
+}
+function removeActive(e){
+    e.classList.remove('active');
+}
+
+function toggleHover(e){
+    e.classList.toggle('hover');
+}
+function addHover(e){
+    e.classList.add('hover');
+}
+function removeHover(e){
+    e.classList.remove('hover');
+}
+
+
+
 const search_bar = document.getElementById('search-bar');
 search_bar.addEventListener('keydown', function(event) {
     if (event.code == 'Enter') {
