@@ -58,25 +58,17 @@
               <a class="nav-link" href="#"><span>About</span></a>
             </li>
           </ul>
-          <a class="nav-link" href="#" onmousedown="">
-            <svg height="30px" width="30px" class="30" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">A magnifying glass icon.</desc><g class="search-path" fill="none" stroke="#848F91"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
-          </a>
+          <div class="forms d-flex">
+            <form class="d-flex search" role="search">
+              <input id="search-bar" class="form-control border-0" type="search" placeholder="Search" aria-label="Search" required>
+              <button id="search-button" class="btn" type="button" onclick="search()">
+                <svg class="svg-icon search-icon" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">A magnifying glass icon.</desc><g class="search-path" fill="none" stroke="#848F91"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-      <div class="forms d-flex">
-        <!-- <button id="settings-button" onmousedown="dropdownToggle();">
-          
-        </button>
-        <div id="settings">
-          
-        </div> -->
-        <form class="d-flex search" role="search">
-          <input id="search-bar" class="form-control border-0" type="search" placeholder="Search" aria-label="Search" required>
-          <button id="search-button" class="btn" type="button" onclick="search()">
-            <svg class="svg-icon search-icon" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">A magnifying glass icon.</desc><g class="search-path" fill="none" stroke="#848F91"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
-          </button>
-        </form>
-      </div>
+      
   </nav>
 
   <main class="container-fluid p-0">

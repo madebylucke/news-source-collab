@@ -98,7 +98,7 @@ button:hover .svg-icon.search-icon{
 }
 
 input.form-control{
-    height: calc(1.5em + .75rem + 4px) !important;
+    border-radius: 5px !important;
 }
 .information {
     position: relative;
@@ -216,6 +216,7 @@ footer h2{
 }
 #navbarSupportedContent{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     padding-left: 11%;
@@ -233,14 +234,6 @@ footer h2{
 }
 .nav-item > *{
     margin: 0 auto;
-}
-
-.forms{
-    z-index: -1;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
 }
 
 .forms.active{
@@ -273,7 +266,7 @@ footer h2{
     justify-content: center;
     position: absolute;
     left: 0;
-    top: 20%;
+    top: 30%;
     transform: translate(-100%);
     width: 40px;
     height: 40px;
