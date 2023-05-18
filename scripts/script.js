@@ -38,11 +38,11 @@ function search(){
     if(!search_bar.value){
         return;
     }
-    console.log(window.location.hostname);
-    
-    const location = window.location.origin + "/grupp8/html/search.html";
 
-    window.location.href = location + '?search=' + search_bar.value;
+    var currentURL = window.location.href; // Get the current URL
+    var location = currentURL.substring(0, currentURL.lastIndexOf('/')); // Extract the parent folder URL
+
+    window.location.href = location + '/search.html?search=' + search_bar.value;
 }
 
 // dark-/lightmode activator

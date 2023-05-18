@@ -33,11 +33,12 @@ main{
 }
 
 .nav-link{
-    color: white !important;
+    color: var(--light-color) !important;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 4em;
+    width: 4.5em;
     text-align: center;
 }
 
@@ -248,7 +249,7 @@ footer h2{
     list-style-type: none;
 }
 #settings{
-    border-left: var(--secondary-color) solid 15px;
+    border-left: var(--secondary-color) solid 10px;
     transition: transform .75s;
     z-index: 1030;
     position: fixed;
@@ -268,7 +269,7 @@ footer h2{
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: -14px;
+    left: -9px;
     top: 30%;
     transform: translate(-100%);
     width: 40px;
