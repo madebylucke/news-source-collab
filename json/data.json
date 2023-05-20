@@ -1,36 +1,36 @@
 {
     "pages": [
         {
-            "title": "Fusion",
-            "description": "Den process då atomkärnor smälter samman och bildar större och tyngre kärnor.",
-            "search_terms": "kärnkraft",
-            "href": "/html/article.html",
-            "image": "/grupp8/images/rooftop_snipers.jpg",
+            "title": "Wave power",
+            "description": "Harnesses ocean waves to generate clean, renewable, and abundant electricity.",
+            "search_terms": "energy",
+            "href": "wave_power.html",
+            "image": "../images/wave_power.jpg",
             "category": "renewable_source"
 
         },
         {
-            "title": "Fission",
-            "description": "Fission betyder klyvning, inom kärnfysiken och kärnkemin klyvningen av atomkärnor, kärnklyvning.",
-            "search_terms": "kärnkraft",
-            "href": "/html/article.html",
-            "image": "/grupp8/images/rooftop_snipers.jpg",
+            "title": "Wind power",
+            "description": "Utilizes natural wind resources to generate clean, renewable electricity.",
+            "search_terms": "energy",
+            "href": "wind_power.html",
+            "image": "../images/wind_power.jpg",
             "category": "renewable_source"
         },
         {
-            "title": "Vattenkraft",
-            "description": "Vattenkraft är energi som utvinns ur strömmande vatten i ett vattenkraftverk.",
-            "search_terms": "Vatten",
-            "href": "/html/article.html",
-            "image": "/grupp8/images/rooftop_snipers.jpg",
+            "title": "Hydropower",
+            "description": "Harnesses flowing water to generate clean, renewable hydroelectricity.",
+            "search_terms": "energy",
+            "href": "hydro_power.html",
+            "image": "../images/hydro_power.jpg",
             "category": "renewable_source"
         },
         {
-            "title": "Solkraft",
-            "description": "Solkraft är omvandlandet av solljus till användbar elektricitet",
-            "search_terms": "Sol",
-            "href": "/html/article.html",
-            "image": "/grupp8/images/rooftop_snipers.jpg",
+            "title": "Solar energy",
+            "description": "Powering the World with Clean, Renewable Sunlight",
+            "search_terms": "energy",
+            "href": "solar_energy.html",
+            "image": "../images/solar_energy.jpg",
             "category": "renewable_source"
         }
           
