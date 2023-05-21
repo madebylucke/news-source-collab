@@ -1,6 +1,6 @@
 :root[data-theme="light"]{
     --primary-color: #f0f3f2;
-    --secondary-color: #5cb35c;
+    --secondary-color: #0E870E;
     --tertiary-color: #4c6b91;
     --bg-color: #ebeae5;
     --light-color: #ebf2fa;
@@ -9,7 +9,7 @@
 }
 
 :root[data-theme="dark"]{
-    --primary-color: #36363a;
+    --primary-color: #2c2c31;
     --secondary-color: #008000;
     --tertiary-color: #326628;
     --bg-color: #141413;
