@@ -1,0 +1,38 @@
+{
+    "pages": [
+        {
+            "title": "Wave power",
+            "description": "Harnesses ocean waves to generate clean, renewable, and abundant electricity.",
+            "search_terms": "energy",
+            "href": "wave_power.html",
+            "image": "../images/wave_power.jpg",
+            "category": "renewable_source"
+
+        },
+        {
+            "title": "Wind power",
+            "description": "Utilizes natural wind resources to generate clean, renewable electricity.",
+            "search_terms": "energy",
+            "href": "wind_power.html",
+            "image": "../images/wind_power.jpg",
+            "category": "renewable_source"
+        },
+        {
+            "title": "Hydropower",
+            "description": "Harnesses flowing water to generate clean, renewable hydroelectricity.",
+            "search_terms": "energy",
+            "href": "hydro_power.html",
+            "image": "../images/hydro_power.jpg",
+            "category": "renewable_source"
+        },
+        {
+            "title": "Solar energy",
+            "description": "Powering the World with Clean, Renewable Sunlight",
+            "search_terms": "energy",
+            "href": "solar_energy.html",
+            "image": "../images/solar_energy.jpg",
+            "category": "renewable_source"
+        }
+          
+    ]
+}

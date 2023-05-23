@@ -1,0 +1,116 @@
+
+/* Main page content */
+main article{
+    box-shadow: rgba(0, 0, 0, 0.103) 0px 2px 12px;
+    background-color: var(--primary-color);
+}
+@media screen and (max-width: 1350px){
+    .information img{
+        width: 100% !important;
+        padding: 0em 0em .25em 0em!important;
+
+    }
+}
+@media screen and (min-width: 2350px){
+    .information img{
+        width: 100% !important;
+        padding: 0em 0em .25em 0em!important;
+
+    }
+    .information h1{
+        width: 65%;
+        margin: 0 auto !important;
+    }
+    .information h2{
+        width: 65%;
+        margin: 0 auto !important;
+    }
+    .information h3{
+        width: 60%;
+        margin: 0 auto !important;
+    }
+    .information p{
+        width: 60%;
+        margin: 0 auto !important;
+    }
+}
+.information {
+    position: relative;
+}
+.information img{
+    float: right;
+    width: 50%;
+    padding: 1em;
+}
+.information h2{
+    font-weight: 400;
+}
+.information h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1em 0 0em 0;
+}
+.information p{
+    overflow-wrap: break-word;
+    hyphens: manual;
+    padding: .5em;
+    margin:0 ;
+}
+
+/* Related articles section */
+.related .related-article{
+    height: 100%;
+    width: 100%;
+    display: block;
+    color: black;
+    text-decoration: none;
+    transition: transform .25s;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.137);
+}
+.related .related-article:hover{
+    transform: scale(1.025);
+}
+
+.related .related-article h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.related .related-article .cover{
+    width: 100%;
+    height: 12em;
+    position: relative;
+    overflow: hidden;
+}
+.related .related-article .cover img{
+    transition: .5s all;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+#search-content{
+    margin-bottom: .5em;
+}
+.article-page{
+    transition: all .125s;
+}
+.article-page img{
+    width: 100%;
+    height: 14em;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+.article-page .info{
+    padding: .5em 0 .5em .75em;
+    height: 8em;
+}
+.article-page:hover{
+    transform: scale(1.0175);
+    text-decoration: none;
+}
