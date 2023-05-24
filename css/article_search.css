@@ -13,7 +13,8 @@ main article{
 }
 @media screen and (min-width: 2350px){
     .information img{
-        width: 100% !important;
+        min-width: 100% !important;
+        height: 35em !important;
         padding: 0em 0em .25em 0em!important;
 
     }
@@ -36,11 +37,13 @@ main article{
 }
 .information {
     position: relative;
+    overflow: hidden;
 }
 .information img{
     float: right;
     width: 50%;
     padding: 1em;
+    object-fit: cover;
 }
 .information h2{
     font-weight: 400;

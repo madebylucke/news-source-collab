@@ -29,7 +29,7 @@ window.onload = (event) => {
         if(result.length === 0){
           
           search_content.innerHTML = 'No results found for: "' + searchWord + '"';
-          search_content.insertAdjacentHTML("afterend", '<h2 style="font-size:26px;margin-top:1.5em; margin-bottom: .5em;">Check out these other articles:</h2>');
+          search_content.insertAdjacentHTML("afterend", '<h2 style="font-size:26px;margin-top:1.5em; margin-bottom: .5em;">Check out these other articles instead:</h2>');
           for(i = 0; i < 4; i++){
             search_parent.innerHTML += `
             <div class="col-xl-4 col-md-6 col-12 pb-3">
