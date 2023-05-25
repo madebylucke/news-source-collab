@@ -1,3 +1,6 @@
+.company{
+    font-size: 50px;
+}
 *, ::after, ::before{
     box-sizing: border-box;
 }
@@ -31,17 +34,18 @@ footer{
     background-color: gray;
 }
 
-.test{
+.startup{
     width: 100%;
     height: 100vh;
-    background-image: url("https://cdn.pixabay.com/photo/2015/11/21/15/49/tree-1055091_1280.jpg");
+    background-image: url("https://wallpapers.com/images/hd/nature-of-waterfalls-2ygv7ssy2k0lxlzu.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
 
-.test h1{
+.startup h1{
     top: 50%;
     color: aliceblue;
+    text-shadow: 2px 2px #111516;
 }
 
 .nav-link{
@@ -58,9 +62,8 @@ footer{
     background-color: white;
 }
 
-#search-bar:focus{
-    box-shadow: none;
-}
+#
+
 
 .search button{
     width: 25px;
@@ -110,110 +113,54 @@ input.form-control{
 .forms:hover input.form-control{
     width: 18em;
 }
-
-
-#darkButton{
-    position: relative;
-    width: 60px;
-    height: 30px;
-    border-radius: 15px;
-    background-color: #c9c9c9;
-    border: 1px solid black;
-    overflow: hidden;
-    cursor: pointer;
-}
-#darkButton::before{
-    transition: all .25s;
-    content: '';
-    width: 30px;
-    height: 30px;
-    background-color: #858585;
-    position: absolute;
-    left: 0;
-    border-radius: 50%;
-    transform: translate(-2.5%);
-}
-:root[data-theme='dark'] #darkButton::before{
-    transform: translate(97.5%);
-    background-color: #111516;
+@media screen and (max-width: 500px) {
+    .row{
+        width: 100% !important;
+    }
+    .related{
+        width: 100% !important;
+    }
 }
 
-.navbar-brand{
+.row{
     width: 80%;
-    margin: 0 auto;
 }
-#navbarSupportedContent{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 2.5em;
-    padding-left: 11%;
-    padding-right: 11%;
-}
-.navbar > div{
-    background-color: var(--dark-color);
+.related{
+    width: 60%;
 }
 
-.nav-item-parent{
-    display: flex;
-    list-style: none;
-    padding: 0;
-}
-.nav-item > *{
-    margin: 0 auto;
-}
-
-.forms{
-    height: 80%;
-}
-
-#settings ul{
-    margin: 0;
-    padding-left: 1em;
-    list-style-type: none;
-}
-#settings{
-    border-left: var(--secondary-color) solid 15px;
-    transition: transform .75s;
-    z-index: 1030;
-    position: fixed;
-    right: 0;
-    top: 0;
+/* Related articles section */
+.related-article{
     height: 100%;
-    width: 14em;
+    width: 100%;
+    display: block;
     background-color: var(--primary-color);
-    transform: translate(100%);
-    padding: 1em;
+    transition: transform .25s;
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.137);
 }
-#settings.active{
-    transform: translate(0%);
+.related-article:hover{
+    text-decoration: none;
+    transform: scale(1.025);
 }
-#settings-button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.related-article h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+.related-article .cover{
+    width: 100%;
+    height: 12em;
+    position: relative;
+    overflow: hidden;
+}
+.related-article .cover img{
+    transition: .5s all;
     position: absolute;
-    left: -14px;
-    top: 30%;
-    transform: translate(-100%);
-    width: 40px;
-    height: 40px;
-    background-color: var(--secondary-color);
-    cursor: pointer;
-    border-radius: 5px 0px 0px 5px;
-}
-#settings-button.active svg{
-    transform: rotate(180deg);
-}
-#settings-button svg{
-    height: 80%;
-    width: 80%;
-    transition: all .1s;
-}
-#settings-button svg path{
-    fill: var(--light-color);
-}
-#settings-button:hover svg{
-    scale: 1.1;
+    top: 0;
+    left: 0;
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 16 / 9;
 }
