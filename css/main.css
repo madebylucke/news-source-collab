@@ -1,9 +1,6 @@
 .company{
     font-size: 50px;
 }
-.company{
-    font-size: 50px;
-}
 *, ::after, ::before{
     box-sizing: border-box;
 }
@@ -120,8 +117,6 @@ footer{
     display: block;
     object-fit: cover;
     height: 100%;
-    width: 100%;
-    aspect-ratio: 16 / 9;
     width: 100%;
     aspect-ratio: 16 / 9;
 }
