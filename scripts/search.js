@@ -47,7 +47,6 @@ window.onload = (event) => {
         
         search_content.innerHTML = 'Results for: "' + searchWord + '"';
 
-
         for(i = 0; i < result.length; i++){
           search_parent.innerHTML += `
           <div class="col-xl-4 col-md-6 col-12">
