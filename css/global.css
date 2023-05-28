@@ -169,6 +169,14 @@ p{
 }
 
 @media screen and (max-width: 600px){
+    
+    .navbar-brand{
+        width: 100%;
+        justify-content: center;
+    }
+    .company{
+        font-size: 36px;
+    }
     #search-form{
         display: none !important;
     }
