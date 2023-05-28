@@ -1,8 +1,12 @@
 *, ::before, ::after{
     box-sizing: border-box;
 }
+*, ::before, ::after{
+    box-sizing: border-box;
+}
 body {
     margin: auto;
+    background-color: var(--bg-color);
     background-color: var(--bg-color);
     position: absolute;
 }
@@ -10,6 +14,17 @@ body {
 main{
     margin: auto;
    
+}
+
+.btn2, .btn3, .btn4 {
+    border-radius: 70%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin: 6%;
+    align-items: center;
+    background-color:#627264;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .btn2, .btn3, .btn4 {
@@ -33,13 +48,20 @@ h2 {
     font-size: 25px;
     text-align: left;
 
+
 }
 h3 {
     font-weight: bold;
     font-size: 20px;
     text-align: left;
     color: var(--text-default-color) !important;
+    color: var(--text-default-color) !important;
 }
+h4 {
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    color: var(--text-default-color) !important;
 h4 {
     font-weight: bolder;
     font-size: 15px;
@@ -48,10 +70,22 @@ h4 {
 
 }
 h5 {
+}
+h5 {
     font-weight: bold;
     font-size: 15px;
     color: #FFC05C;
     text-align: left;
+
+}
+:root[data-theme='light'] h5{
+    color: var(--secondary-color) !important;
+}
+h6 {
+    color: var(--text-default-color) !important;
+    font-weight:600;
+    font-size: 20px;
+}
 
 }
 h6 {
@@ -64,12 +98,14 @@ p {
     font-size: 15px;
     color: #E9ECE9;
     font-weight: 400;
+    font-weight: 400;
 }
 
 .card { 
     margin-right: 1%;
     margin-left: 1%;
     padding: 1%;
+    background-color: var(--primary-color);
     background-color: var(--primary-color);
     border-color: transparent;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -78,8 +114,10 @@ p {
 
 #sec1 {
     background-color:var(--primary-color);
+    background-color:var(--primary-color);
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: 20px;
     margin-top: 20px;
     border-radius: 10px;
     padding: 3%;
@@ -88,8 +126,10 @@ p {
 
 #sec2 {
     background-color: var(--primary-color);
+    background-color: var(--primary-color);
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: 20px;
     margin-top: 20px;
     border-radius: 10px;
     padding: 3%;
@@ -102,10 +142,16 @@ p {
     margin-right: 15%;
     padding: 1%;
     margin-top: 20px;
+    padding: 1%;
+    margin-top: 20px;
 
 }
 
 #sec4 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
     display: flex;
     align-items: center;
@@ -116,9 +162,11 @@ p {
 
 #sec5 {
     background-color:var(--primary-color);
+    background-color:var(--primary-color);
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 10px;
+    margin-top: 20px;
     margin-top: 20px;
     padding: 3%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -146,13 +194,90 @@ p {
     padding: .1em;
     transform: scale(1.25);
     fill: var(--text-default-color);
+
+
+/* OPTIMIZATION FOR MOBILE DEVICES */ 
+
+.btn2:hover, .btn3:hover, .btn4:hover{
+    background-color: var(--secondary-color);
+}
+.btn2, .btn3, .btn4{
+    transition: all .15s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: var(--primary-color);
+}
+.btn2 svg, .btn3 svg, .btn4 svg{
+    padding: .1em;
+    transform: scale(1.25);
+    fill: var(--text-default-color);
 }
 
 .card img{
     object-fit: cover;
     height: 10em;
 }
+.card img{
+    object-fit: cover;
+    height: 10em;
+}
 
+@media screen and (min-width: 1200px) {
+    .btn2, .btn3, .btn4{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .btn2, .btn3, .btn4{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #sec1{
+        margin-right: 0;
+        margin-left: 0;
+        border-radius: 5px;
+    }
+    #sec2{
+        margin-right: 0;
+        margin-left: 0;
+        border-radius: 5px;
+    }
+    #sec3{
+        margin-right: 0;
+        margin-left: 0;
+        border-radius: 5px;
+    }
+    #sec4{
+        margin-right: 0;
+        margin-left: 0;
+        border-radius: 5px;
+    }
+    #sec5{
+        margin-right: 0;
+        margin-left: 0;
+        border-radius: 5px;
+    }
+    .btn2, .btn3, .btn4{
+        margin: 0 10px 0 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    #sec4{
+        flex-direction: column;
+    }
+    .btn2, .btn3, .btn4{
+        width: 125px;
+        height: 125px;
+        margin: 10px;
+    }
+}
 @media screen and (min-width: 1200px) {
     .btn2, .btn3, .btn4{
         width: 150px;
