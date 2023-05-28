@@ -3,11 +3,30 @@
     box-sizing: border-box !important;
 }
 
-body{
+html{
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: auto;
     background-color: var(--bg-color);
 }
 
+main {
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.logo-text{
+    font-weight: bold;
+    font-size: 1.75rem;
+}
 h1{
     font-weight: bold;
     font-size: 46px;
