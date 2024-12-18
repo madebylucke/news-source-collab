@@ -111,7 +111,7 @@ function searchLower(){
         return;
     }
 
-    window.location.href = window.location.origin + '/grupp8/html/search.html?search=' + search_bar_lower.value;
+    window.location.href = window.location.origin + '/html/search.html?search=' + search_bar_lower.value;
 }
 
 // dark-/lightmode activator
