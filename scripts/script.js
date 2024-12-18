@@ -95,7 +95,7 @@ function search(){
         return;
     }
 
-    window.location.href = window.location.origin + '/grupp8/html/search.html?search=' + search_bar.value;
+    window.location.href = window.location.origin + '/html/search.html?search=' + search_bar.value;
 }
 
 const search_bar_lower = document.getElementById('search-bar-panel-lower');
