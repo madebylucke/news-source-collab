@@ -1,0 +1,182 @@
+@import url(standard.css);
+
+:root{
+    --dark: rgb(36, 36, 36);
+}
+
+.test::after{
+    content: "";
+    width: 100%;
+    height: .25em;
+    position: absolute;
+    top: 50%;
+    left: -.75em;
+    box-shadow:  0 1em 0 black;
+}
+
+p.test{
+    position: relative;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    box-shadow: rgba(0, 0, 0, 0.199) 0px 5px 15px;
+}
+main > h1{
+    text-align: center;
+    margin: 0;
+    padding: .25em;
+}
+
+.objective p{
+    margin: .25em;
+}
+
+.objective img{
+    width: 100%;
+    object-fit: cover;
+}
+.objective section{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.objective{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.font{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.font section{
+    position: relative;
+    padding: 1em;
+}
+
+.color{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 1.5em;
+}
+
+.moodboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.moodboard section:first-child{
+    padding: 1em;
+}
+.color section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    --box-size: 7em;
+}
+.color section > div{
+    width: var(--box-size);
+    border: 1px solid black;
+}
+
+.color section p{
+    margin: 0;
+    padding: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+.color section div > div{
+    border-top: 1px solid black;
+}
+
+.color section div > div:first-child{
+    height: calc(var(--box-size) / 4);
+    border-top: none;
+}
+.color section div > div:nth-child(2){
+    width: 100%;
+    height: var(--box-size);
+    background-color: hsl(var(--background-color-h), 
+    var(--background-color-s), 
+    var(--background-color-l));
+}
+.color section div > div:nth-child(3){
+    height: calc(var(--box-size) / 3);
+    background-color: hsl(var(--background-color-h), 
+    var(--background-color-s), 
+    calc(var(--background-color-l) + 10%));
+}
+.color section div > div:nth-child(4){
+    height: calc(var(--box-size) / 3);
+    background-color: hsl(var(--background-color-h), 
+    var(--background-color-s), 
+    calc(var(--background-color-l) + 20%));
+}
+.color section div > div:nth-child(5){
+    height: calc(var(--box-size) / 3);
+    background-color: hsl(var(--background-color-h), 
+    var(--background-color-s), 
+    calc(var(--background-color-l) + 30%));
+}
+.color section .light > div:nth-child(3){
+    height: calc(var(--box-size) / 3);
+    background-color: hsl(var(--background-color-h), 
+    var(--background-color-s), 
+    calc(var(--background-color-l) - 5%));
+}
+.color section .light > div:nth-child(4){
+    height: calc(var(--box-size) / 3);
+    background-color: hsl(var(--background-color-h), 
+    var(--background-color-s), 
+    calc(var(--background-color-l) + -10%));
+}
+.color section .light > div:nth-child(5){
+    height: calc(var(--box-size) / 3);
+    background-color: hsl(var(--background-color-h), 
+    var(--background-color-s), 
+    calc(var(--background-color-l) + -15%));
+}
+
+.color .primary{
+    --background-color: #849944;
+    --background-color-h: 75;
+    --background-color-s: 38%;
+    --background-color-l: 43%;
+}
+.color .secondary div{
+    --background-color: #065735;
+    --background-color-h: 155;
+    --background-color-s: 87%;
+    --background-color-l: 18%;
+}
+.color .extended div{
+    --background-color: #FF9500;
+    --background-color-h: 35;
+    --background-color-s: 100%;
+    --background-color-l: 50%;
+}
+.color .dark div{
+    --background-color: #26302A;
+    --background-color-h: 144;
+    --background-color-s: 12%;
+    --background-color-l: 17%;
+}
+.color .light div{
+    --background-color: #EDF7EB;
+    --background-color-h: 110;
+    --background-color-s: 43%;
+    --background-color-l: 95%;
+}

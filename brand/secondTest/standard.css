@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src:  url('../font/PlusJakartaSans-2.6/webfonts/PlusJakartaSans-Bold.woff') format('woff'),
+          url('../font/PlusJakartaSans-2.6/webfonts/PlusJakartaSans-Bold.woff2') format('woff2');
+}
+
+h1{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 2.25em;
+    font-weight: 700;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+h2{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+h3{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 1.75em;
+    font-weight: 500;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+h4{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+h5{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: .75em;
+    margin-top: .75em;
+}
+h6{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: .75em;
+    margin-top: .75em;
+}
+p{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: .04em;
+}

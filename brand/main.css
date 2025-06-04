@@ -1,0 +1,93 @@
+@import url(standard.css);
+
+:root{
+    --dark: rgb(36, 36, 36);
+}
+
+.test::after{
+    content: "";
+    width: 100%;
+    height: .25em;
+    position: absolute;
+    top: 50%;
+    left: -.75em;
+    box-shadow:  0 1em 0 black;
+}
+
+p.test{
+    position: relative;
+}
+
+main > h1{
+    text-align: center;
+}
+
+main{
+    margin: 0 auto;
+    max-width: 800px;
+}
+main section{
+    margin-bottom: 1em;
+}
+
+.font{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.font section{
+    position: relative;
+    padding: 1em;
+}
+
+.color{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.moodboard{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.moodboard section:first-child{
+    padding: 1em;
+}
+.color section{
+    display: flex;
+    margin-bottom: 1em;
+}
+.color section div div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: solid black 1px;
+}
+.color section > div{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.color figure{
+    margin-left: 1em;
+}
+
+.color .primary div{
+    background-color: #849944;
+}
+.color .secondary div{
+    background-color: #065735;
+}
+.color .extended div{
+    background-color: #FF9500;
+}
+.color .dark div{
+    background-color: #26302A;
+}
+.color .light div{
+    background-color: #EDF7EB;
+}
